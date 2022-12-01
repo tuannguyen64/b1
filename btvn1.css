@@ -1,0 +1,68 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.container{
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.product{
+    width: 500px;
+    border: 1px solid rgb(233, 227, 227);
+    border-radius: 10px;
+    overflow: hidden;
+    font-family: 'Nunito', sans-serif;
+}
+img{
+    width: 100%;
+    height: 300px;
+    object-fit: cover;
+}
+
+.pro-inf{
+    padding: 40px;
+}
+
+.pro-inf span{
+    font-size: 14px;
+    font-weight: 600;
+    color: rgb(148, 148, 148);
+    display: block;
+    margin: 7px 0;
+}
+
+.pro-inf h3{
+    font-size: 25px;
+}
+
+.pro-inf p{
+    font-size: 17px;
+    color: rgba(116, 116, 116, 0.705);
+    margin: 18px 0;
+    font-weight: 600;
+}
+
+.pro-inf button{
+    padding: 15px 25px;
+    font-size: 18px;
+    font-weight: 700;
+    color: #c60dff;
+    border-color: #d448ffce;
+    border-radius: 5px;
+    background-color: white;
+    transition: all linear 0.5s;
+}
+.pro-inf button:hover{
+    background-color: #af00e4;
+    color: white;
+    cursor: pointer;
+
+}
+
+.pro-inf button i{
+    font-size: 18px;
+    margin-left: 20px;
+}
